@@ -1,0 +1,55 @@
+/* THEME: PHYSICAL DISABILITY PWD – big buttons, relaxed spacing */
+
+body {
+    background:
+        radial-gradient(circle at 0% 0%, rgba(45,212,191,0.25), transparent 55%),
+        radial-gradient(circle at 100% 0%, rgba(59,130,246,0.18), transparent 55%),
+        #ecfeff;
+}
+
+.card {
+    padding: 1.9rem 1.6rem;
+    border-radius: 26px;
+    box-shadow: 0 22px 48px rgba(148,163,184,0.5);
+}
+
+.page-title {
+    font-size: 1.6rem;
+}
+
+.physical-ui {
+    display:flex;
+    flex-direction:column;
+    gap:1.1rem;
+}
+
+.big-btn {
+    padding: 1.1rem 1.3rem;
+    font-size: 1.1rem;
+    border-radius: 22px;
+    background: #ffffff;
+    border: 1px solid #cbd5f5;
+    box-shadow: 0 14px 36px rgba(148,163,184,0.55);
+}
+
+.big-btn:hover,
+.big-btn:focus-visible {
+    border-color:#22c55e;
+    box-shadow: 0 16px 42px rgba(74,222,128,0.6);
+}
+
+/* Make clickable controls slightly larger */
+
+button,
+.btn {
+    padding: 0.6rem 1.4rem;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+select,
+textarea {
+    padding: 0.6rem 0.9rem;
+}
